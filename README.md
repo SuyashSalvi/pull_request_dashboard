@@ -91,7 +91,7 @@ This app is built on Atlassian's Forge platform, ensuring a secure and seamless 
 
 ## **Demo**
 
-Check out [demo video on YouTube]([(https://www.youtube.com/watch?v=hnD2BwtYwp8)]) for a detailed walkthrough of the app.
+Check out [demo video on YouTube](https://www.youtube.com/watch?v=hnD2BwtYwp8) for a detailed walkthrough of the app.
 
 ---
 
