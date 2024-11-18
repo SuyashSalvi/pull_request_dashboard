@@ -1,0 +1,22 @@
+modules:
+  bitbucket:repoCodeOverviewCard:
+    - key: Pull-Request-Dashboard-app-hello-world-repository-code-overview-card
+      resource: main
+      resolver:
+        function: resolver
+      render: native
+      title: Pull-Request-Dashboard
+  function:
+    - key: resolver
+      handler: index.handler
+resources:
+  - key: main
+    path: src/frontend/index.jsx
+app:
+  runtime:
+    name: nodejs20.x
+  id: ari:cloud:ecosystem::app/b04e999e-679d-42f9-9407-8120b683cd7c
+permissions:
+  scopes:
+    - read:repository:bitbucket
+    - read:pullrequest:bitbucket
